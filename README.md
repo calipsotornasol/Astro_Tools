@@ -5,7 +5,7 @@ This folder cointains:
 
 ##Astrometry: 
 
-- prep.sh: program to pepare data to do astrometry. Converts fits into sdf and create images withe a specific name.
+- prep.sh: Program to pepare data to do astrometry. Converts fits into sdf and create images withe a specific name.
 
 ##Others:
 
