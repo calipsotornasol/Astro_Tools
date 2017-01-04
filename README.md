@@ -1,5 +1,5 @@
 # Astro_Tools
-Tools to work work astrodata
+Tools to work astrodata
 
 This folder cointains:
 
