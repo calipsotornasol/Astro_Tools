@@ -25,7 +25,15 @@ for file in os.listdir(folder_path):
           print ('Processing ' + file)              
           df = pd.read_csv(file, sep=" ")
           name2= os.path.splitext(file)[0]
+<<<<<<< Updated upstream
           (df.loc[df['ARRAY'] == 1]).to_csv(name2+'_1.cat', sep=" ")
           (df.loc[df['ARRAY'] == 2]).to_csv(name2+'_2.cat', sep=" ")
           (df.loc[df['ARRAY'] == 3]).to_csv(name2+'_3.cat', sep=" ")
           (df.loc[df['ARRAY'] == 4]).to_csv(name2+'_4.cat', sep=" ")
+=======
+          header = ["NUMBER", "X_IMAGE", "Y_IMAGE"]
+          (df.loc[df['ARRAY'] == 1]).to_csv(name2[:-5]+'_1.cat', sep=" ", index=False, columns = header)
+          (df.loc[df['ARRAY'] == 2]).to_csv(name2[:-5]+'_2.cat', sep=" ", index=False, columns = header)
+          (df.loc[df['ARRAY'] == 3]).to_csv(name2[:-5]+'_3.cat', sep=" ", index=False, columns = header)
+          (df.loc[df['ARRAY'] == 4]).to_csv(name2[:-5]+'_4.cat', sep=" ", index=False, columns = header)
+>>>>>>> Stashed changes
