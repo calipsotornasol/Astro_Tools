@@ -7,7 +7,7 @@ This folder cointains:
 
 - prep.sh: Program to pepare data to do astrometry. Converts fits into sdf and create images withe a specific name.
 - W1541_1.sh: Program to match stars and set a PSF
-- W1542_2.sh: Program to do astrometry. First part. Second part cooming soon.
+- W1541_2.sh: Program to do astrometry. First part. Second part cooming soon.
 
 ##Others:
 
